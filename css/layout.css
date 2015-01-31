@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/hexagon.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -187,7 +187,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   /*background: #2B2B2B;*/
+   background: url(../images/hexabump_@2X.png) repeat;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -207,8 +208,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 180px;
+   height: 180px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -582,7 +583,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #212121;
+   /*background: #212121;*/
+   background: url(../images/hexabump_@2X.png) repeat;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -788,7 +790,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   /*background: #191919;*/
+   background: url(../images/hexabump_@2X.png) repeat;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
